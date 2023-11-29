@@ -8,17 +8,15 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
   DiGithub,
-  DiJava,
+ 
 } from "react-icons/di";
 import {
   SiRedux,
   SiRedis,
   SiFirebase,
-  SiNextdotjs,
-  SiPostgresql,
+  
 } from "react-icons/si";
 
 function Techstack() {
@@ -46,9 +44,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
@@ -61,18 +57,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+      
     </Row>
   );
 }
