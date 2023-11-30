@@ -2,8 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/password.png";
-import bitsOfCode from "../../Assets/Projects/notestaking.png";
+import notesTakingImage from "../../Assets/Projects/notestaking.png";
+import dogImage from "../../Assets/Projects/dog.png";
+import receipeImage from "../../Assets/Projects/receipe.png";
+import blogImage from "../../Assets/Projects/blog.png";
+import apiImage from "../../Assets/Projects/api.png";
+import todoImage from "../../Assets/Projects/todo.png";
 
 function Projects() {
   return (
@@ -19,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={notesTakingImage}
               isBlog={false}
               title="Notes Taking Application"
               description="Simple Notes Taking Application build with React.js, Bootstrap, Nodejs and MongoDB."
@@ -30,12 +34,56 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={receipeImage}
               isBlog={false}
-              title="PasswordReset"
-              description="Simple Password-Reaset Application build with React.js, Bootstrap, Nodejs and MongoDB."
-              ghLink="https://github.com/abarnaasuren/password-reset"
-              demoLink="https://abarnaa-password-reset.netlify.app"
+              title="Receipe Finder Application"
+              description="Simple Receipe Finder Application with HTML,CSS,JavaScript,Bootstrap,API."
+              ghLink="https://github.com/abarnaasuren/Recipe-finder-Day-20.git"
+              demoLink="https://teal-mochi-aeeabf.netlify.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blogImage}
+              isBlog={false}
+              title="BLOG"
+              description="Created a simple web page with routes using react-router-dom."
+              ghLink="https://github.com/abarnaasuren/router.git"
+              demoLink="https://effervescent-clafoutis-90c035.netlify.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todoImage}
+              isBlog={false}
+              title="ToDo List"
+              description="Simple CURD Opertation using HTML,CSS,JavaScript,React"
+              ghLink="https://github.com/abarnaasuren/Day-25-ToDo.git"
+              demoLink="https://comfy-cocada-a9a463.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={apiImage}
+              isBlog={false}
+              title="Rest Countries and Weather using fetch API"
+              description="CountryName,Capital,Flag,Region,LatAng using HTML, CSS, JavaScript."
+              ghLink="https://github.com/abarnaasuren/weather-task.git"
+              demoLink="https://silly-toffee-de2530.netlify.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dogImage}
+              isBlog={false}
+              title="API Task"
+              description="It is a simple API task built in HTML, CSS, JavaScript"
+              ghLink="https://github.com/abarnaasuren/DOG-IMAGE-DAY-20.git"
+              demoLink="https://lustrous-faun-55e491.netlify.app"
             />
           </Col>
         </Row>
