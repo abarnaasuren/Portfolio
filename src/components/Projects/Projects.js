@@ -6,7 +6,8 @@ import notesTakingImage from "../../Assets/Projects/notestaking.png";
 import dogImage from "../../Assets/Projects/dog.png";
 import receipeImage from "../../Assets/Projects/receipe.png";
 import blogImage from "../../Assets/Projects/blog.png";
-import apiImage from "../../Assets/Projects/api.png";
+import authenticationImage from "../../Assets/Projects/auth.png";
+
 import todoImage from "../../Assets/Projects/todo.png";
 
 function Projects() {
@@ -34,7 +35,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={user-authentication}
+              imgPath={authenticationImage}
               isBlog={false}
               title="User-Authentication"
               description="Simple User-Authentication Application build with React.js, Bootstrap, Nodejs and MongoDB."
