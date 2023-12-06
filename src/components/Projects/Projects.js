@@ -34,6 +34,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={user-authentication}
+              isBlog={false}
+              title="User-Authentication"
+              description="Simple User-Authentication Application build with React.js, Bootstrap, Nodejs and MongoDB."
+              ghLink="https://github.com/abarnaasuren/user-authentication-frontend"
+              demoLink="https://jolly-tanuki-a587d5.netlify.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={receipeImage}
               isBlog={false}
               title="Receipe Finder Application"
