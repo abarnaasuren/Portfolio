@@ -76,16 +76,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={apiImage}
-              isBlog={false}
-              title="Rest Countries and Weather using fetch API"
-              description="CountryName,Capital,Flag,Region,LatAng using HTML, CSS, JavaScript."
-              ghLink="https://github.com/abarnaasuren/weather-task.git"
-              demoLink="https://silly-toffee-de2530.netlify.app"
-            />
-          </Col>
+         
 
           <Col md={4} className="project-card">
             <ProjectCard
