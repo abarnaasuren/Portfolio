@@ -1,6 +1,6 @@
 Demo :
 
- https://portfolio-umber-omega-58.vercel.app/
+https://portfolio-omega-rosy-40.vercel.app/project
 
 This project was built using the following technologies:
 
